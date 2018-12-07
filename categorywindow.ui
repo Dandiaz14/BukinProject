@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>categoryWindow</class>
+ <widget class="QDialog" name="categoryWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>318</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Categories</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="pics.qrc">
+    <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+  </property>
+  <widget class="QLabel" name="fondoLabel">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>-1</y>
+     <width>321</width>
+     <height>503</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pics.qrc">:/Imagenes/Hoja.JPG</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="antologiaPB">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Antología</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="biografiaPB">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Biografía</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dramaPB">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>100</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Drama</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="expositivoPB">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>140</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Expositivo</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="epistolarPB">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>180</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Epistolar</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="narrativaPB">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Narrativa</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="obraGraficaPB">
+   <property name="geometry">
+    <rect>
+     <x>37</x>
+     <y>260</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Obra Gráfica</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="poesiaPB">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>300</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Poesía</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="referenciaPB">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>340</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Referencia</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clasicoPB">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>380</y>
+     <width>240</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Clásico</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Imagenes/BookSeller-Logo.png</normaloff>:/Imagenes/BookSeller-Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backPB">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>445</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>445</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="pics.qrc"/>
+ </resources>
+ <connections/>
+</ui>
